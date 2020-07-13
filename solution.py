@@ -7,7 +7,7 @@ def checkArmstrong(num):
         n = len(num1)
         sum = 0
         for i in range(0,n):
-                sum = sum + num[i] ** n
+                sum = sum + num1[i] ** n
 
         if str(sum) == num1:
                 return True
