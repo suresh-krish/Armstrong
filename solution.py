@@ -3,6 +3,14 @@
 
 def checkArmstrong(num):
         # Your code goes here
+        num1 = str(num)
+        n = len(num1)
+        sum = 0
+        for i in range(0,n):
+                sum = sum + int(num[i]) ** n
 
+        if str(sum) == num1:
+                return True
+        else:
+                return False
 
-       return True
